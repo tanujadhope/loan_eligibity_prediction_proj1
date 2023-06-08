@@ -1,0 +1,94 @@
+<html>
+<body>
+	<h3>Loan Eligibility Prediction Form</h3>
+
+<div>
+<form action="/result" method="POST">
+	
+	
+	<label for="1">Property_Area</label>
+	<select id="area1" name="area1">
+	<option value="0">NORural</option>
+	<option value="1">Rural</option>
+	</select>
+	<br>
+	<label for="area2">Property_Area</label>
+	<select id="area2" name="area2" >
+	<option value="1">Semiurban</option>
+	<option value="0">NoSemiurban</option>
+	</select>
+	<br>
+	<label for="gender">Gender</label>
+	<select id="gender" name="gender">
+	<option value="0">Male</option>
+	<option value="1">Female</option>
+	</select>
+	<br>
+	<label for="married">Married</label>
+	<select id="married" name="married">
+	<option value="1">Married</option>
+	<option value="0">Unmarried/Divorce</option>
+	</select>
+	<br>
+	<label for="edu">Education</label>
+	<select id="edu" name="edu">
+	<option value="1">Graduate</option>
+	<option value="0">NotGraduate</option>
+	</select>
+	<br>
+	<label for="Occup">Occupation</label>
+	<select id="Occup" name="Occup">
+	<option value="1">Self_Employed</option>
+	<option value="0">Service</option>
+	</select>
+	<br>
+	<label for="AI">Applicant Income</label>
+	<input type="text" id="AI" name="AI">btw:[0-9999]
+	</select>
+	<br>
+	<label for="CoAI">Co-Applicant Income</label>
+	<input type="text" id="CoAI" name="CoAI">btw:[0-9999]
+	</select>
+	<br>
+	<label for="Loanamt">LoanAmount</label>
+	<input type="text" id="Loanamt" name="Loanamt">btw:[0-9999]
+	</select>
+	<br>
+	<label for="Loanamtyr">LoanAmount Term</label>
+	<input type="text" id="Loanamtyr" name="Loanamtyr">btw:[0-400]
+	</select>
+	<br>
+    <label for="credit">CreditHistory</label>
+	<select id="credit" name="credit">
+	<option value="1">Credit History</option>
+	<option value="0">NoCredit History</option>
+	</select>
+	<br>
+	<label for="loanamt">LoanAmount_log	 </label>
+	<input type="text" id="loanamt" name="loanamt">btw:[0-10]
+    </select>
+	<br>
+	<label for="Depd0">Dependents0</label>
+	<select id="Depd0" name="Depd0">
+	<option value="1">Dependent </option>
+	<option value="0">No Dependent</option>
+    </select>
+	<br>
+    <label for="Depd1">Dependents1</label>
+	<select id="Depd1" name="Depd1">
+	<option value="1">Dependent </option>
+	<option value="0">No Dependent</option>
+   </select>
+	<br>
+    <label for="Depd2">Dependents2</label>
+	<select id="Depd2" name="Depd2">
+	<option value="1">Dependent </option>
+	<option value="0">No Dependent</option>
+    </select>
+    <br>
+ 
+	<input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

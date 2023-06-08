@@ -1,0 +1,5 @@
+setup.py
+Loan_eligibility_prediction.egg-info/PKG-INFO
+Loan_eligibility_prediction.egg-info/SOURCES.txt
+Loan_eligibility_prediction.egg-info/dependency_links.txt
+Loan_eligibility_prediction.egg-info/top_level.txt
